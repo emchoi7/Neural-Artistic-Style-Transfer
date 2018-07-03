@@ -1,6 +1,5 @@
 """
-Implementation of the "A Neural Algorithm of Artistic Style" in Python using
-TensorFlow.
+Implementation of Neural Artisctic Style Transfer 
 """
 import os
 import sys
