@@ -49,6 +49,18 @@ VGG_MODEL = 'imagenet-vgg-verydeep-19.mat'
 # difference to the performance of model.
 MEAN_VALUES = np.array([123.68, 116.779, 103.939]).reshape((1,1,1,3))
 
+def generate_noise_image(content_image, noise_ratio = NOISE_RATIO):
+    """
+    Returns a noise image intermixed with the content image at a certain ratio.
+    """
+    noise_image = np.random.uniform(
+            -20, 20,
+            (1, IMAGE_HEIGHT, IMAGE_WIDTH, COLOR_CHANNELS)).astype('float32')
+    # White noise image from the content representation. Take a weighted average
+    # of the values
+    input_image = noise_image * noise_ratio + content_image * (1 - noise_ratio)
+    return input_image
+
 def load_vgg_model(path):
     """
     Returns a model for the purpose of 'painting' the picture.
