@@ -61,6 +61,15 @@ def generate_noise_image(content_image, noise_ratio = NOISE_RATIO):
     input_image = noise_image * noise_ratio + content_image * (1 - noise_ratio)
     return input_image
 
+def load_image(path):
+    image = scipy.misc.imread(path)
+    # Resize the image for convnet input, there is no change but just
+    # add an extra dimension.
+    image = np.reshape(image, ((1,) + image.shape))
+    # Input to the VGG model expects the mean to be subtracted.
+    image = image - MEAN_VALUES
+    return image
+
 def load_vgg_model(path):
     """
     Returns a model for the purpose of 'painting' the picture.
