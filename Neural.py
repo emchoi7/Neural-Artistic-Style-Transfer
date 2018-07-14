@@ -70,6 +70,14 @@ def load_image(path):
     image = image - MEAN_VALUES
     return image
 
+def save_image(path, image):
+    # Output should add back the mean.
+    image = image + MEAN_VALUES
+    # Get rid of the first useless dimension, what remains is the image.
+    image = image[0]
+    image = np.clip(image, 0, 255).astype('uint8')
+    scipy.misc.imsave(path, image)
+
 def load_vgg_model(path):
     """
     Returns a model for the purpose of 'painting' the picture.
