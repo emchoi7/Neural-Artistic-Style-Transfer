@@ -10,15 +10,17 @@ CNNs are like Neural Network made up of learnable weights and biases. It works o
 * pip install Scipy
 
 ## Outputs
-#### Content and Style Image
 
-* Style Image :
+### Style Image :
 ![style](https://user-images.githubusercontent.com/25060937/43782404-e9905f7a-9a7c-11e8-9520-877fefba3db5.jpg)
 
-* content Image:
+### Content Image:
 ![content](https://user-images.githubusercontent.com/25060937/43782443-03226b0e-9a7d-11e8-9f69-dd6478c02716.jpg)
 
-* Output Image :
+### Processing:
+![Processing](https://user-images.githubusercontent.com/25060937/43788536-46d659ba-9a8b-11e8-8502-c82e11a1b4dc.PNG)
+
+### Output Image :
 ![Output](https://user-images.githubusercontent.com/25060937/43782850-e5636a90-9a7d-11e8-8c77-d6210f93fd31.png)
 
 ## Resources
@@ -37,3 +39,4 @@ CNNs are like Neural Network made up of learnable weights and biases. It works o
 * [Convolutional Neural Network with TensorFlow implementation](https://medium.com/data-science-group-iitr/building-a-convolutional-neural-network-in-python-with-tensorflow-d251c3ca8117)
 * [Fast Style Transfer](https://github.com/ShafeenTejani/fast-style-transfer)
 * [Style Transfer in Real Time](https://shafeentejani.github.io/2017-01-03/fast-style-transfer/)
+* [Prisma](https://harishnarayanan.org/writing/artistic-style-transfer/)
