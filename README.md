@@ -11,7 +11,7 @@ CNNs are like Neural Network made up of learnable weights and biases. It works o
 
 ## Outputs
 #### Content and Style Image
-<br><br>
+
 * Style Image :
 ![style](https://user-images.githubusercontent.com/25060937/43782404-e9905f7a-9a7c-11e8-9520-877fefba3db5.jpg)
 
@@ -21,3 +21,19 @@ CNNs are like Neural Network made up of learnable weights and biases. It works o
 * Output Image :
 ![Output](https://user-images.githubusercontent.com/25060937/43782850-e5636a90-9a7d-11e8-8c77-d6210f93fd31.png)
 
+## Resources
+* [Paper: A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576v2.pdf)
+* [What is CNN](https://medium.com/data-science-group-iitr/artistic-style-transfer-with-convolutional-neural-network-7ce2476039fd)
+* [Artistic Neural Style](http://www.subsubroutine.com/sub-subroutine/2016/11/12/painting-like-van-gogh-with-convolutional-neural-networks)
+* [Artistic Neural Style](https://harishnarayanan.org/writing/artistic-style-transfer/)
+* [Github Repo](https://github.com/anishathalye/neural-style)
+* [pretrained Networks](http://www.vlfeat.org/matconvnet/pretrained/)
+* [Another way of Thinking](https://medium.com/artists-and-machine-intelligence/neural-artistic-style-transfer-a-comprehensive-look-f54d8649c199)
+* [VGG in tensorflow](http://www.cs.toronto.edu/~frossard/post/vgg16/#files)
+* [Good to read Example](http://www.chioka.in/tensorflow-implementation-neural-algorithm-of-artistic-style)
+* [Neural Style Transfer using Jupyter Notebook](https://github.com/dsgiitr/Neural-Style-Transfer/blob/master/Keras_styletransfer.ipynb)
+* [Artistic Style Transfer with Convolutional Neural Network](https://medium.com/data-science-group-iitr/artistic-style-transfer-with-convolutional-neural-network-7ce2476039fd)
+* [Course for Understanding Deep Learning in deep](http://course.fast.ai/lessons/lesson1.html)
+* [Convolutional Neural Network with TensorFlow implementation](https://medium.com/data-science-group-iitr/building-a-convolutional-neural-network-in-python-with-tensorflow-d251c3ca8117)
+* [Fast Style Transfer](https://github.com/ShafeenTejani/fast-style-transfer)
+* [Style Transfer in Real Time](https://shafeentejani.github.io/2017-01-03/fast-style-transfer/)
