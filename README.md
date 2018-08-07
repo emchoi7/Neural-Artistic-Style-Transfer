@@ -18,7 +18,7 @@ CNNs are like Neural Network made up of learnable weights and biases. It works o
 ![content](https://user-images.githubusercontent.com/25060937/43782443-03226b0e-9a7d-11e8-9f69-dd6478c02716.jpg)
 
 ### Processing:
-![Processing](https://user-images.githubusercontent.com/25060937/43788536-46d659ba-9a8b-11e8-8502-c82e11a1b4dc.PNG)
+![Processing](https://user-images.githubusercontent.com/25060937/43799647-c4e1a1be-9aab-11e8-960e-400c42afec6e.png)
 
 ### Output Image :
 ![Output](https://user-images.githubusercontent.com/25060937/43782850-e5636a90-9a7d-11e8-8c77-d6210f93fd31.png)
