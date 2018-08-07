@@ -7,8 +7,8 @@ import tensorflow as tf
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2'}
 OUTPUT_DIR = 'output/'
-STYLE_IMAGE = 'style/style8.jpg'
-CONTENT_IMAGE = 'content/content8.jpg'
+STYLE_IMAGE = 'style/style1.jpg'
+CONTENT_IMAGE = 'content/content1.jpg'
 IMAGE_WIDTH = 800
 IMAGE_HEIGHT = 600
 COLOR_CHANNELS = 3
