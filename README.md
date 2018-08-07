@@ -5,9 +5,9 @@ Neural Artistic style transfer is transferring of style from the style image to 
 CNNs are like Neural Network made up of learnable weights and biases. It works on multi-channeled images. Convolution Layer is the main Building block of CNN and Each layer consists of a number of filters. It also consists of a pooling layer which reduces the spatial size of the representation i.e. computations. CNN helps in detecting objects in images.
 
 ## Setup
-``` pip install Tensorflow ``` <br>
-``` pip install Numpy ``` <br>
-``` pip install Scipy ``` <br>
+``` pip install Tensorflow ``` <br><br>
+``` pip install Numpy ``` <br><br>
+``` pip install Scipy ``` <br><br>
 
 ## Outputs
 
