@@ -12,15 +12,19 @@ CNNs are like Neural Network made up of learnable weights and biases. It works o
 ## Outputs
 
 ### Style Image :
+
 ![style](https://user-images.githubusercontent.com/25060937/43782404-e9905f7a-9a7c-11e8-9520-877fefba3db5.jpg)
 
 ### Content Image:
+
 ![content](https://user-images.githubusercontent.com/25060937/43782443-03226b0e-9a7d-11e8-9f69-dd6478c02716.jpg)
 
 ### Processing:
+
 ![Processing](https://user-images.githubusercontent.com/25060937/43799647-c4e1a1be-9aab-11e8-960e-400c42afec6e.png)
 
 ### Output Image :
+
 ![Output](https://user-images.githubusercontent.com/25060937/43782850-e5636a90-9a7d-11e8-8c77-d6210f93fd31.png)
 
 ## Pre-trained Imagenet model using Very-Deep Convolutional Neural Network
