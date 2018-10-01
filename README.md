@@ -5,7 +5,7 @@ Neural Artistic style transfer is transferring of style from the style image to 
 CNNs are like Neural Network made up of learnable weights and biases. It works on multi-channeled images. Convolution Layer is the main Building block of CNN and Each layer consists of a number of filters. It also consists of a pooling layer which reduces the spatial size of the representation i.e. computations. CNN helps in detecting objects in images.
 
 ## Setup
-* ``` pip install Tensorflow ``` <br><br>
+* Follow [Tensorflow installation](https://www.tensorflow.org/install/) for installing Tensorflow in your OS.<br><br>
 * ``` pip install Numpy ``` <br><br>
 * ``` pip install Scipy ``` <br><br>
 
@@ -34,6 +34,7 @@ you can find the model on the following site with name [imagenet-vgg-verydeep-19
 * [Paper: A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576v2.pdf)
 * [What is CNN](https://medium.com/data-science-group-iitr/artistic-style-transfer-with-convolutional-neural-network-7ce2476039fd)
 * [Artistic Neural Style](http://www.subsubroutine.com/sub-subroutine/2016/11/12/painting-like-van-gogh-with-convolutional-neural-networks)
+* [Basics of Neural Style Transfer](https://www.coursera.org/lecture/convolutional-neural-networks/what-is-neural-style-transfer-SA5H8)
 * [Artistic Neural Style](https://harishnarayanan.org/writing/artistic-style-transfer/)
 * [Github Repo](https://github.com/anishathalye/neural-style)
 * [pretrained Networks](http://www.vlfeat.org/matconvnet/pretrained/)
