@@ -1,11 +1,11 @@
 ## Fork this repository
 
-Fork this repository by clicking on the fork butoon on the top right of this page. This will create a copy of this repository in your account. 
+Fork this repository by clicking on the fork butoon on the top right of this page. This will create a copy of this repository in your account. Copy the url of the cloned repository from your account.
 
 ## Clone the Repository
 
 Now clone the forked repository to your machine. Go to your terminal and the type:
-
+Paste the url in place of the quotes:
 ```
 git clone "url of the cloned repo"
 ```
@@ -20,9 +20,8 @@ git clone https://github.com/this-is-your-name/Neural-Artistic-Style-Transfer
 ## Create a branch
 
 Change to the repository directory on your computer (if you are not already there):
-
 ```
-cd first-contributions
+cd Neural-Artistic-Style-Transfer
 ```
 Now create a branch using the `git checkout` command:
 ```
