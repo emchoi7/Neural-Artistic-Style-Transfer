@@ -7,3 +7,6 @@
 ---
 ## @IbrarYunus
 ###### Suggested new features
+
+## @ritwik12
+###### Contributor
