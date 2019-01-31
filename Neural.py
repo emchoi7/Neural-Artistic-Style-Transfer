@@ -4,11 +4,14 @@ import numpy as np
 import scipy.io
 import scipy.misc
 import tensorflow as tf
+import sys 
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2'}
 OUTPUT_DIR = 'output/'
-STYLE_IMAGE = 'style/style1.jpg'
-CONTENT_IMAGE = 'content/content1.jpg'
+#STYLE_IMAGE = 'style/style1.jpg'
+#CONTENT_IMAGE = 'content/content1.jpg'
+STYLE_IMAGE = sys.argv[1]
+CONTENT_IMAGE = sys.argv[2]
 IMAGE_WIDTH = 800
 IMAGE_HEIGHT = 600
 COLOR_CHANNELS = 3
